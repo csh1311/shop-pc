@@ -1,0 +1,81 @@
+body {
+    margin: 0px !important;
+}
+
+/* @charset "UTF-8"; */
+/* 基础样式 */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    height: calc(100vh);
+    background: RGB(242, 244, 254);
+}
+
+.box .el-form {
+    margin: 30px !important;
+}
+
+.box .el-form .el-form-item {
+    border: 1px solid #a19dd7;
+    border-radius: 1px;
+}
+
+.box .el-form .el-form-item .el-form-item__label {
+    background: white;
+    color: #6459d5;
+    float: left;
+    font-size: 12px;
+    line-height: 24px;
+    margin: -12px 0px 0 12px;
+    min-width: 0;
+    padding: 0 6px;
+}
+
+.box .el-form .el-form-item .el-form-item__content {
+    display: block;
+    line-height: 0px;
+    margin: 0;
+}
+
+.box .el-form .el-form-item .el-input {
+    height: 35px;
+}
+
+.box .el-form .el-form-item .el-form-item__content .el-input .el-input__wrapper {
+    border-radius: 0;
+    border: 0 !important;
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    width: 100% !important;
+    transition: none;
+    box-shadow: none
+}
+
+.box .el-form .el-form-item .el-form-item__label {
+    margin-bottom: 0px !important;
+    line-height: 22px;
+}
+
+
+#home .el-sub-menu .el-sub-menu__title .el-sub-menu__icon-arrow {
+    display: none;
+}
+
+
+#home .el-menu .el-menu--inline {
+    background-color: #0422d7;
+}
+
+#home .el-sub-menu .el-menu .el-menu-item {
+    padding-left: 25%;
+}
+
+#home .el-menu-item.is-active {
+    width: 100% !important;
+    background-color: #ebeffa !important;
+    color: #0422d7 !important;
+}
